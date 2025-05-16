@@ -1,0 +1,201 @@
+h1{
+    color: yellow;
+    font-size: 40px;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 1000;
+}
+.jumbotron {
+    background-color: #ff2c2c;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.jumbotron img {
+    width: 400px;
+    margin: 30px;
+}
+.jumbotron h3, p {
+    color: rgb(255, 255, 255);
+}
+.main-container{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+.package-container{
+    margin: 20px;
+    padding: 16px;
+    border: 3px solid black;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px gray;
+}
+.package-container p{
+    color:black;
+}
+.package-container img{
+    width: 300px;
+}
+body{
+    margin: 0;
+}
+button{
+    background-color: #ff2c2c;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.left{
+    float :left;
+}
+table, th, td, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+th{
+    background-color: #ff2c2c;
+    color: white;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.table img{
+    width: 200px;
+}
+.title{
+    text-align: center;
+    color: rgb(165, 5, 0);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+header{
+    background-color: #ff0000;
+    color: white;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    display: flex;
+}
+.header-title{
+    text-align: left;
+    color: white;
+    margin: 14px;
+    font-size: 18px;
+}
+nav{
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding: 15px;
+}
+footer{
+    color: white;
+    text-align: center;
+    background-color: #ff0000;
+    padding: 10px;
+    margin-top: 50px;
+}
+a:hover{
+    color: black;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(41, 159, 120);
+}
+.package-container:hover{
+    cursor: pointer;
+    background-color: rgb(221, 233, 236);
+}
+.formcontainer{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.formcontainer img{
+    width: 300px;
+}
+.form{
+    text-align: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(226, 64, 0);
+}
+input{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 3px;
+}
+label{
+    display: inline-block;
+    margin-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+select{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+th,td{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about{
+    display: block;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+.about h1{
+    text-align: center;
+    color: darkorange;
+}
+.about img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    width: 50%;
+    align-self: center;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about h3{
+    color: #fc1616;
+}
+.about p{
+    color: black;
+}
+iframe{
+    margin: 10px;
+}

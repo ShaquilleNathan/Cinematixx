@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinemaTixx</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1 class="header-title">CinemaTixx</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="bookingform.html">Booking</a>
+            <a href="about.html">About us</a>
+        </nav>
+    </header>
+    <main>
+    <div class = "jumbotron">
+         <div>
+            <h1>
+                <h1>CinemaTixx</h1>
+            <h3>
+                Simply buy the ticket that allows you to explore your fantasy
+            </h3>
+            <p> Website created by : Shaquille Nathan</p>
+            </h1>
+         </div>
+    <div>
+        <img src="images/cinema.png" alt="Logo">
+    </div>
+    </div>
+<div class ="main-container">
+    <div class="package-container">
+        <!-- 1st package content -->
+        <img src="images/afterdisaster.jpg" alt="afterdisaster">
+        <h3>After Disaster</h3>
+        <p>Action, Adventure, Crime</p3>
+        <h4>USD 8,50</h4>
+        <!--add button here-->
+        <button class="left" onclick="goToBooking()">Buy Now</button>
+    </div>
+    <div class="package-container">
+        <!--2nd package content-->
+        <img src="images/chicago.jpg" alt="chicago">
+        <h3>Lost In Chicago</h3>
+        <p>Adventure, Comedy, Drama</p3>
+        <h4>USD 12,00</h4>
+        <!--add button here-->
+        <button class="left" onclick="goToBooking()">Buy Now</button>
+    </div>
+    <div class="package-container">
+        <!--3rd package content-->
+        <img src="images/fly-high.jpg" alt="fly-high">
+        <h3>Fly High</h3>
+        <p>Drama, Romantic, Comedy</p3>
+        <h4>USD 10,00</h4>
+        <!--add button here-->
+        <button class="left" onclick="goToBooking()">Buy Now</button>
+    </div>
+</div>    
+<h1 class="title" >Ticket Detail</h1>
+<div class="table">
+    <table>
+        <tr>
+            <!-- Table heading-->
+            <th>Movie</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Booking</th>
+        </tr>
+        <tr>
+            <!-- Table data 1-->
+            <td><img src="images/afterdisaster.jpg" alt=""></td>
+            <td>After Disaster</td>
+            <td>
+                Genre       : Action, Adventure, Crime <br>
+                Duration    : 1 hour 15 minutes <br>
+                Available   : 10 Dec 2022 - 14 Jan 2023 <br>
+                08.00-10.15, 12.00-13.15, 15.15-16.30, 19.30-20.45 <br>
+                Studio      : 1, 3
+            </td>
+            <td>USD 8,50</td>
+            <td><button onclick="goToBooking()">Buy Now</button></td>
+        </tr>
+        <tr>
+            <!-- Table data 2-->
+            <td><img src="images/chicago.jpg" alt=""></td>
+            <td>Lost In Chicago</td>
+            <td>
+                Genre       : Adventure, Comedy, Drama <br>
+                Duration    : 2 hours 30 minutes <br>
+                Available   : 5 Dec 2022 - 31 Dec 2022 <br>
+                08.00-10.30, 12.00-14.30, 15.15-17.45, 21.30-00.00 <br>
+                Studio      : 2, 7
+            </td>
+            <td>USD 12,00</td>
+            <td><button onclick="goToBooking()">Buy Now</button></td>
+        </tr>
+        <tr>
+            <!-- Table data 3-->
+            <td><img src="images/fly-high.jpg" alt=""></td>
+            <td>Fly High</td>
+            <td>
+                Genre       : Drama, Romance, Comedy <br>
+                Duration    : 1 hour 15 minutes <br>
+                Available   : 12 Dec 2022 - 17 Jan 2023 <br>
+                09.00-10.15, 11.00-12.15, 15.15-16.30, 19.30-20.45 <br>
+                Studio      : 3, 5
+            </td>
+            <td>USD 10,00</td>
+            <td><button onclick="goToBooking()">Buy Now</button></td>
+        </tr>
+        <tr>
+            <!-- Table data 4-->
+            <td><img src="images/deepinlove.jpg" alt=""></td>
+            <td>Deep In Love</td>
+            <td>
+                Genre       : Romance, Drama, Musical <br>
+                Duration    : 2 hours 15 minutes <br>
+                Available   : 1 Dec 2022 - 2 Jan 2023 <br>
+                10.00-12.15, 14.00-16.15, 19.15-21.30 <br>
+                Studio      : 1, 4, 8
+            </td>
+            <td>USD 9,50</td>
+            <td><button onclick="goToBooking()">Buy Now</button></td>
+        </tr>
+        <tr>
+            <!-- Table data 5-->
+            <td><img src="images/heartofthesea.jpg" alt=""></td>
+            <td>Heart Of The Sea</td>
+            <td>
+                Genre       : Drama, Adventure, Romance <br>
+                Duration    : 1 hour 15 minutes <br>
+                Available   : 3 Dec 2022 - 14 Jan 2023 <br>
+                09.00-10.15, 14.00-15.15, 18.15-19.30, 22.30-23.45 <br>
+                Studio      : 3, 7, 8
+            </td>
+            <td>USD 11,50</td>
+            <td><button onclick="goToBooking()">Buy Now</button></td>
+        </tr>
+        <tr>
+            <!-- Table data 6-->
+            <td><img src="images/together.jpg" alt=""></td>
+            <td>Together</td>
+            <td>
+                Genre       : Romance, Drama <br>
+                Duration    : 1 hour 15 minutes <br>
+                Available   : 9 Dec 2022 - 8 Jan 2023 <br>
+                09.00-10.15, 14.00-15.15, 22.30-23.45 <br>
+                Studio      : 4, 5
+            </td>
+            <td>USD 10,50</td>
+            <td><button onclick="goToBooking()">Buy Now</button></td>
+        </tr>
+        <tr>
+            <!-- Table data 7-->
+            <td><img src="images/victory.jpg" alt=""></td>
+            <td>Victory</td>
+            <td>
+                Genre       : War, Action, Crime <br>
+                Duration    : 1 hour 15 minutes <br>
+                Available   : 12 Dec 2022 - 14 Jan 2023 <br>
+                11.15-12.30, 14.00-15.15, 18.15-19.30, 22.30-23.45 <br>
+                Studio      : 2, 3
+            </td>
+            <td>USD 8,00</td>
+            <td><button onclick="goToBooking()">Buy Now</button></td>
+        </tr>
+    </table>
+</div>
+
+<h1 class="title" >Now Showing</h1>
+<div class="main-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bK6ldnjE3Y0" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bHXejJq5vr0" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe>
+</div>
+
+    </main>
+    <footer>
+        <h4>CinemaTixx</h4>
+        <p>Copyright &copy 2022 Designed by Shaquille Nathan</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
